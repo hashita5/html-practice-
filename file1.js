@@ -74,28 +74,28 @@
 
 //----------------------------------------------------------------------
 
-let a = prompt("enter the number:");
-let b = prompt("enter the number:");
-var ch = prompt("enter youe choice");
-switch (ch) {
-      case "+":
-        console.log(parseInt(a)+parseInt(b));
-        break;
-      case "-":
-        console.log(parseInt(a)-parseInt(b));
-        break;
-      case "*":
-        console.log(parseInt(a)*parseInt(b));
-        break;
-      case "/":
-        console.log(parseInt(a)/parseInt(b));
-        break;
-      case "%":
-        console.log(parseInt(a)%parseInt(b));
-        break;
-      default:
-            console.log("Unknown number.");   
-}
+// let a = prompt("enter the number:");
+// let b = prompt("enter the number:");
+// var ch = prompt("enter youe choice");
+// switch (ch) {
+//       case "+":
+//         console.log(parseInt(a)+parseInt(b));
+//         break;
+//       case "-":
+//         console.log(parseInt(a)-parseInt(b));
+//         break;
+//       case "*":
+//         console.log(parseInt(a)*parseInt(b));
+//         break;
+//       case "/":
+//         console.log(parseInt(a)/parseInt(b));
+//         break;
+//       case "%":
+//         console.log(parseInt(a)%parseInt(b));
+//         break;
+//       default:
+//             console.log("Unknown number.");   
+// }
 //------------------------------------------------------------------------
 
 // simple function
