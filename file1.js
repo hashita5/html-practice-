@@ -169,3 +169,71 @@
 // Night()
 
 
+//----------------------------------------------------------------------
+
+// var name = "ravi"
+// let age = 28
+// const isIndian = true
+
+//  document.write(`${name},you are ${age}yr old and you are ${isIndian ? "Indian":"Other"}nationality`)
+
+
+//-------------------------------------------------------------------------
+
+// var fname = 'GLA'  // global scope
+
+// function show()
+// {
+//     fname = 'codingoes' // local scope
+//     document.write(fname)   // codingoes
+// }
+
+// show()
+// document.write(fname) // GLA
+
+//----------------------------------------------------------------------------
+
+// let a = prompt("enter the number:");
+// let b = prompt("enter the number:");
+// var ch = prompt("enter youe choice");
+// switch (ch) {
+//       case "+":
+//         document.write(parseInt(a)+parseInt(b));
+//         break;
+//       case "-":
+//         document.write(parseInt(a)-parseInt(b));
+//         break;
+//       case "*":
+//         document.write(parseInt(a)*parseInt(b));
+//         break;
+//       case "/":
+//         document.write(parseInt(a)/parseInt(b));
+//         break;
+//       case "%":
+//         document.write(parseInt(a)%parseInt(b));
+//         break;
+//       default:
+//         document.write("Unknown number.");   
+//  }
+
+
+//--------------------------------------------------------------
+
+
+let student ={
+  id: 101,
+  sname: "luncy",
+  isStudent: true,
+
+}
+console.log(Student['id']);
+
+Student.id=102
+
+console.log(Student["id"]);
+
+Student ["age"] = 22
+console.log(Student);
+
+
+
